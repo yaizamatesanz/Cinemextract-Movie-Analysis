@@ -1,94 +1,119 @@
-# 🎬 Proyecto CinemExtract: Explorando el Séptimo Arte a través de Datos y Tecnología
+# 🎬 CinemExtract: Exploring Cinema with Data and Technology  
+**Collaborative Project** | Module 2 | Data Analytics Bootcamp  
 
-## 📄 Resumen
-DataStream está en constante búsqueda de mejorar su contenido y satisfacer a sus usuarios. CinemExtract aplica técnicas avanzadas de análisis de datos para identificar las películas y cortometrajes más populares y mejor valorados desde 1900 hasta la actualidad. Nuestro objetivo es ayudar a DataStream a tomar decisiones informadas sobre qué contenido promocionar y destacar en su plataforma.
+---
 
-Utilizamos técnicas de web scraping y APIs para extraer información de fuentes como IMDb y almacenamos estos datos en una base de datos para realizar consultas y análisis.
+## 📄 Summary  
+DataStream continuously strives to enhance its platform and meet user expectations. CinemExtract applies advanced data analysis techniques to identify the most popular and highly-rated movies and short films from 1900 to the present. The project aims to help DataStream make informed decisions on promoting content effectively.  
 
-## 🎯 Objetivos
-- Consolidar conocimientos en **Python** y **SQL**.
-- Implementar **Scrum** y **Agile** para el desarrollo del proyecto.
-- Mejorar la comunicación y el trabajo en equipo.
-- Exponer el proyecto de forma efectiva en la presentación final.
+Using web scraping and APIs, we gathered information from sources like IMDb and stored it in a database for analysis and insights.
 
-## 🚀 Fases del proyecto
+---
 
-### Fase 1: Extracción de datos
+## 🎯 Objectives  
+- Consolidate skills in Python and SQL.  
+- Implement Scrum and Agile methodologies for project development.  
+- Improve communication and teamwork.  
+- Deliver an impactful final presentation of the project.  
 
-- **API de MoviesDataset**: Extraemos detalles básicos de películas, como título, género y año de estreno.
-- **Selenium y IMDb**: Obtenemos calificaciones, directores, guionistas y sinopsis de cada película.
-- **Detalles de actores**: Información detallada de los principales actores de cada película.
-- **Premios Óscar con Beautiful Soup**: Extraemos datos de las ceremonias de los premios desde el año 2000.
+---
 
-### Fase 2: Organización y almacenamiento de datos
+## 🚀 Project Phases  
 
-- **Creación de la base de datos**: Diseño y estructura para almacenar todos los datos extraídos.
-- **Inserción de datos**: Ingreso de la información en la base de datos diseñada.
+### **Phase 1: Data Extraction**  
+- **MoviesDataset API**: Collected basic movie details like titles, genres, and release years.  
+- **Selenium and IMDb**: Scraped ratings, directors, writers, and movie synopses.  
+- **Actor Details**: Retrieved detailed profiles of key actors in each movie.  
+- **Oscar Awards with Beautiful Soup**: Gathered award data from ceremonies since 2000.  
 
-### Fase 3: Análisis y consultas de datos
+### **Phase 2: Data Organization and Storage**  
+- **Database Creation**: Designed and structured the database to store extracted data.  
+- **Data Insertion**: Imported information into the newly designed database.  
 
-- Realizamos consultas SQL para extraer información clave sobre tendencias y popularidad de películas.
+### **Phase 3: Data Analysis and Queries**  
+- Performed SQL queries to uncover key trends and insights on movie popularity and ratings.  
 
-## 📚 Tecnologías utilizadas
+---
 
-- **Python**: Para la extracción y manipulación de datos.
-- **Selenium**: Automatización del navegador para extraer información de IMDb.
-- **Beautiful Soup**: Análisis y extracción de tablas desde la web.
-- **SQL**: Para almacenamiento y consultas de datos.
+## 📚 Technologies Used  
+- **Python**: For data extraction and manipulation.  
+- **Selenium**: For web scraping and automating browser interactions (IMDb data).  
+- **Beautiful Soup**: For web scraping and parsing HTML tables.  
+- **SQL**: For storing and querying extracted data.  
 
-## ⚙️ Requisitos
+---
 
-Antes de comenzar, asegúrate de tener los siguientes requisitos instalados:
-
-- Python 3.7 o superior
-- Jupyter Notebook
-- Google Chrome y ChromeDriver para Selenium
-- Librerías de Python: `pandas`, `selenium`, `requests`
-
-## 📦 Instalación
-
-1. Clona el repositorio:
-   git clone https://github.com/maria-diz/proyecto_da_promo_j_modulo_2_team_1.git
-
-2. Instala las dependencias necesarias:
+## ⚙️ Requirements  
+Ensure the following tools and libraries are installed:  
+- **Python 3.7+**  
+- **Jupyter Notebook**  
+- **Google Chrome** and **ChromeDriver** (for Selenium)  
+- Python Libraries:  
+   ```bash
    pip install pandas selenium requests
+   ```  
+- Ensure ChromeDriver is configured in your PATH.
 
-3. Asegúrate de tener ChromeDriver configurado en tu PATH.
+---
 
+## 📦 Installation  
 
-## 👥 Equipo
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/maria-diz/proyecto_da_promo_j_modulo_2_team_1.git
+   ```
+2. Install required dependencies:  
+   ```bash
+   pip install pandas selenium requests
+   ```
+3. Ensure ChromeDriver is configured in your PATH.  
 
-   Ana Boyero: Team Developer
-   María Diz: Scrum Master
-   Yaiza Matesanz: Team Developer
+---
 
-## 📅 Planificación del proyecto
+## 👥 Team Members  
+- **Ana Boyero**: Team Developer  
+- **María Diz**: Scrum Master  
+- **Yaiza Matesanz**: Team Developer  
 
-Trabajamos en sprints siguiendo los principios de Scrum, con revisiones periódicas y retroalimentación continua para mejorar el producto y el trabajo en equipo.
+---
 
-## 📊 Resultados esperados
+## 📅 Project Planning  
+We worked in sprints following Scrum principles, with regular reviews and feedback to refine both the product and teamwork processes.
 
-Identificar las películas mejor valoradas y más populares.
-Responder preguntas clave sobre tendencias del cine y premios Óscar.
+---
 
-## 🎤 Presentación final
+## 📊 Expected Outcomes  
+- Identify the most highly-rated and popular movies.  
+- Answer key questions about cinema trends and Oscar awards.  
 
-Cada miembro del equipo participará en la presentación, mostrando los resultados y los aprendizajes obtenidos.
+---
 
-## 🤝 Contribuciones
+## 🎤 Final Presentation  
+Each team member will contribute to the final presentation, showcasing results and key learnings.  
 
-Las contribuciones son bienvenidas. Si deseas contribuir, por favor sigue los siguientes pasos:
+---
 
-1. Haz un fork del repositorio.
-2. Crea una rama nueva (git checkout -b feature/nueva-caracteristica).
-3. Realiza tus cambios y haz commit (git commit -m 'Añadir nueva característica').
-4. Haz push a la rama (git push origin feature/nueva-caracteristica).
-5. Abre un Pull Request.
+## 🤝 Contributions  
+Contributions are welcome! To contribute, follow these steps:  
+1. Fork the repository.  
+2. Create a new branch:  
+   ```bash
+   git checkout -b feature/new-feature
+   ```  
+3. Commit your changes:  
+   ```bash
+   git commit -m 'Add new feature'
+   ```  
+4. Push the branch:  
+   ```bash
+   git push origin feature/new-feature
+   ```  
+5. Open a Pull Request.  
 
-## 📧 Contacto
+---
 
-Para preguntas o sugerencias, por favor contacta con:
-
-- Ana Boyero: [LinkedIn](https://www.linkedin.com/in/anaboyero/)
-- María Diz: [LinkedIn](https://www.linkedin.com/in/maria-d-229180311/)
-- Yaiza Matesanz: [LinkedIn](https://www.linkedin.com/in/yaiza-matesanz-aviles/)
+## 📧 Contact  
+For questions or suggestions, feel free to reach out via LinkedIn:  
+- **Ana Boyero**: [LinkedIn](https://www.linkedin.com/in/anaboyero/)
+- **María Diz**: [LinkedIn](https://www.linkedin.com/in/maria-d-229180311/)
+- **Yaiza Matesanz**: [LinkedIn](https://www.linkedin.com/in/yaiza-matesanz-aviles/) 
